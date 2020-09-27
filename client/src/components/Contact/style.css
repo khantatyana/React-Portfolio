@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Patrick Hand', cursive;
+}
+.contactme {
+    background-image: url(../../Images/laptoppink.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }

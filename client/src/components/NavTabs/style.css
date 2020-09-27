@@ -1,0 +1,33 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+}
+.nav-item {
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.5s;
+}
+.nav-item a {
+columns: 8a8a8a;
+text-decoration: none;
+transition: color 0.5s;
+} 
+.nav-link:hover {
+border-bottom: 3px solid black;
+}
+#aboutme .nav-link:hover {
+border-bottom: 3px solid red;
+} 
+.nav-item Link:hover {
+color: black;
+} 
+.navbar-brand {
+    font-size: 36px;
+    background-color: rgb(130, 133, 211);
+    margin: 0px;
+    padding-top: 0px;
+    font-family: 'Patrick Hand', cursive;
+} 
+.navbar {
+background-color: white;
+border-bottom: blue 2px dotted;
+} 
