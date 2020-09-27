@@ -1,9 +1,41 @@
-h1 {
+h1 h3 {
     font-family: 'Patrick Hand', cursive;
+}
+.form {
+  width: 500px;
+  border: dotted blue;
 }
 .contactme {
     background-image: url(../../Images/laptoppink.jpg);
     background-size: 100%;
     background-repeat: repeat;
     background-attachment: fixed;
+    height: 700px;
+}
+.main {
+    min-height: 300%;
+    padding-top: 100px;
+    margin-left: 200px;
+}
+.social-icons {
+    padding-left: 100px;
+    flex-wrap: nowrap;
+  }
+  .fa-github {
+    color: black;
+  }
+  .fa-linkedin-in {
+    color: #2f22a1;
+  }
+  .fa-instagram {
+    color: rgb(151, 28, 28);
+  }
+  .fa-facebook {
+    color: rgb(19, 72, 179);
+  }
+  .fa-file-user {
+    color: black;
+  }
+  .fa-spin-hover:hover {
+    animation: fa-spin 2s infinite linear;
   }

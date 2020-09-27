@@ -5,10 +5,10 @@ img:hover {
 }
 .aboutmeMain {
     background-image: url(../../Images/coding.jpg);
-    height: 1000px;
+    height: 800px;
 }
 p {
-  height: 600px;
+  height: 400px;
 }
 .main {
     /* display: grid; */
@@ -17,8 +17,8 @@ p {
 
     backface-visibility: hidden;
     background-size: 110%;
-    /* background-repeat: repeat; */
-    /* background-attachment: fixed; */
+    background-repeat: repeat;
+    background-attachment: fixed;
     color: rgb(220, 219, 248);
     margin-top: 20px;
   }

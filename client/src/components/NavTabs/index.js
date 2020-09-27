@@ -20,7 +20,7 @@ function NavTabs() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            <li className="nav-item">
               <Link
                 to="/about"
                 className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
