@@ -1,27 +1,39 @@
 import React from "react";
+import emailjs from 'emailjs-com';
+import apiKeys from '../../js/apikeys'
 
-// This file exports the Input, TextArea, and FormBtn components
+export function ContactUs() {
 
-export function Input(props) {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('my_amazing_template', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+      .then((result) => {
+          console.log(result.text);
+          alert("Your message was sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
   return (
-    <div className="form-group">
-      <input className="form-control" {...props} />
-    </div>
-  );
-}
-
-export function TextArea(props) {
-  return (
-    <div className="form-group">
-      <textarea className="form-control" rows="6" {...props} />
-    </div>
-  );
-}
-
-export function FormBtn(props) {
-  return (
-    <button {...props} style={{ float: "right", marginBottom: 10 }} className="btn btn-primary">
-      {props.children}
-    </button>
+    <form className="contact-form form" onSubmit={sendEmail}>
+      <input className="form-control" type="hidden" name="contact_number" />
+      <label>Name</label>
+      <div className="form-group form__input">
+        <input className="form-control" type="text" name="user_name" placeholder="John Smith"/>
+      </div>
+      <label>Email</label>
+      <div className="form-group form__input" >
+        <input className="form-control" type="email" name="user_email" placeholder="exaple@gmail.com"/>
+      </div>
+      <label>Message</label>
+      <div className="form-group form__input">
+        <textarea className="form-control" name="message" placeholder="Enter your message"/>
+      </div>
+      <input className="btn btn-primary" type="submit" value="Send" rows="20"  />
+    </form>
   );
 }

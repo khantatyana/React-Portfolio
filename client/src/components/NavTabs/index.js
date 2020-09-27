@@ -11,14 +11,15 @@ function NavTabs() {
 
   return (
     <Navbar sticky="top">
+
+
+        <div className="collapse navbar-collapse" id="navbarNav">
         <Link
           to="/about"
           className={location.pathname === "/about" ? "navbar-brand active" : "navbar-brand"}
         >
           Tatyana Khan
         </Link>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link

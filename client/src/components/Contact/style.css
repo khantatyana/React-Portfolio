@@ -1,10 +1,7 @@
 h1 h3 {
     font-family: 'Patrick Hand', cursive;
 }
-.form {
-  width: 500px;
-  border: dotted blue;
-}
+
 .contactme {
     background-image: url(../../Images/laptoppink.jpg);
     background-size: 100%;
