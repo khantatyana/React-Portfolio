@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const projectController = require("../../controllers/projectController");
+const projectsController = require("../../controllers/projectsController");
 
 // Matches with "/api/projects"
-router.route("/projects")
-  .get(projectController.findAll)
+router.route("/")
+  .get(projectsController.findAll)
 
 
 module.exports = router;

@@ -15,8 +15,16 @@ const projectSeed = [
     deployed: "https://khantatyana.github.io/HW-Work-Day-Scheduler/",
     logoWrapper: "./Assets/Images/wrkdayScheduler.png",
     gitHub: "https://github.com/khantatyana/HW-Work-Day-Scheduler"
+  },
+  {
+    title: "Explore Outdoors App",
+    portfolioImgBackground: "background-image:url(./Assets/Images/outdoor.png)",
+    synopsis:
+      "This application was built with third-party APIs: National Parks, Map Box API and Open Weather API powered by JavaScript code.",
+    deployed: "https://khantatyana.github.io/Project-1/",
+    logoWrapper: "./Assets/Images/outdoor.png",
+    gitHub: "https://github.com/khantatyana/Project-1"
   }
-
 ];
 
 db.Project

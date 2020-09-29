@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 
@@ -12,19 +12,10 @@ function App() {
       <div>
         <NavTabs />
         <Switch>
-        {/* <Route exact path={["/", "/about"]} component={About}> */}
-        <Route exact path={["/", "/about"]} >
-          <About/>
-          </Route>
-          <Route exact path={["/portfolio"]} component={Portfolio}>
-            <Portfolio />
-          </Route>
-          <Route exact path={["/contact"]} component={Contact}>
-            {/* <Form /> */}
-          </Route>
-          <Route>
-            <NoMatch />
-          </Route>
+          <Route exact path={["/", "/about"]} component={About} />
+          <Route exact path="/portfolio" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={NoMatch} />
         </Switch>
       </div>
     </Router>
