@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Container } from "../components/Grid";
+// import { Container } from "../components/Grid";
 
 export function List({ children }) {
     return (

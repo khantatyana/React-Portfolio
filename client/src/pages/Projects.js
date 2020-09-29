@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import Footer from "../components/Footer";
+import Project from "../components/Project"
 
 function Projects() {
   // Setting our component's initial state
