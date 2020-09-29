@@ -1,21 +1,20 @@
 import React from "react";
 import "./style.css";
 import laptop from "../../Images/laptopred.jpg";
-const imgStyle = {
-    "&:hover": {
-        webkitTransform: "scaleX(-1)",
-        transform: "scaleX(-1)",
-    },
-    width: "171",
-    height: "180"
-};
+// const imgStyle = {
+//     "&:hover": {
+//         webkitTransform: "scaleX(-1)",
+//         transform: "scaleX(-1)",
+//     }
+// };
 
 function About() {
 
     return (
-        <div className="main">
+        <div>
             <h1>About me</h1>
-            <img style={imgStyle}
+            <img 
+            // style={imgStyle}
             alt="171x180"
             src={laptop}
             />

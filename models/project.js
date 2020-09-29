@@ -2,10 +2,12 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const projectSchema = new Schema({
-  title: { type: String, required: true },
-  author: { type: String, required: true },
+  title: String,
+  portfolioImgBackground: String,
   synopsis: String,
-  date: { type: Date, default: Date.now }
+  deployed: String,
+  logoWrapper: String,
+  gitHub: String
 });
 
 const Project = mongoose.model("Project", projectSchema);

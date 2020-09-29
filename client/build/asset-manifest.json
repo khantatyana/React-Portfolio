@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbebdf65.chunk.css",
+    "main.js": "/static/js/main.a5f2766b.chunk.js",
+    "main.js.map": "/static/js/main.a5f2766b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3afedb2a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3afedb2a.js.map",
+    "static/css/2.c11e63b2.chunk.css": "/static/css/2.c11e63b2.chunk.css",
+    "static/js/2.1aff18e2.chunk.js": "/static/js/2.1aff18e2.chunk.js",
+    "static/js/2.1aff18e2.chunk.js.map": "/static/js/2.1aff18e2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.30fffeb9c6b4bd6d2201c590803eb605.js": "/precache-manifest.30fffeb9c6b4bd6d2201c590803eb605.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c11e63b2.chunk.css.map": "/static/css/2.c11e63b2.chunk.css.map",
+    "static/css/main.fbebdf65.chunk.css.map": "/static/css/main.fbebdf65.chunk.css.map",
+    "static/js/2.1aff18e2.chunk.js.LICENSE.txt": "/static/js/2.1aff18e2.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/laptoppink.7ea4f28c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3afedb2a.js",
+    "static/css/2.c11e63b2.chunk.css",
+    "static/js/2.1aff18e2.chunk.js",
+    "static/css/main.fbebdf65.chunk.css",
+    "static/js/main.a5f2766b.chunk.js"
+  ]
+}

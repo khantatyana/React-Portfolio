@@ -1,50 +1,67 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { Col, Row, Container } from "../components/Grid";
+import React, { useState, useEffect } from "react";
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
+import { Link } from "react-router-dom";
+import { Col, Row, Container } from "../components/Grid";
+import { List, ListItem } from "../components/List";
+import Footer from "../components/Footer";
 
-function Detail(props) {
-  const [book, setBook] = useState({})
+function Projects() {
+  // Setting our component's initial state
+  const [projects, setProjects] = useState([{}])
+  const [formObject, setFormObject] = useState({})
 
-  // When this component mounts, grab the book with the _id of props.match.params.id
-  // e.g. localhost:3000/books/599dcb67f0f16317844583fc
-  const {id} = useParams()
+  // Load all projects and store them with setProjects
   useEffect(() => {
-    API.getBook(id)
-      .then(res => setBook(res.data))
-      .catch(err => console.log(err));
+    loadProjects()
   }, [])
 
-  return (
+  function loadProjects() {
+    API.getProjects()
+      .then(res => 
+        // setProjects(res.data)
+        console.log(res.data)
+      
+      )
+      .catch(err => console.log(err));
+  };
+
+
+    return (
       <Container fluid>
         <Row>
-          <Col size="md-12">
+          <Col size="md-6">
             <Jumbotron>
-              <h1>
-                {book.title} by {book.author}
-              </h1>
+              <h1>My Projects</h1>
             </Jumbotron>
+            
+          </Col>
+          <Col size="md-6 sm-12">
+            <Jumbotron>
+              <h1>{projects.synopsis}</h1>
+            </Jumbotron>
+            {projects.length ? (
+              <List>
+                {projects.map(project => (
+                  <ListItem key={project._id}>
+                    <Link to={"/portfolio"}>
+                      <strong>
+                        {project.title} by {project.synopsis}
+                      </strong>
+                    </Link>
+                  </ListItem>
+                ))}
+              </List>
+            ) : (
+              <h3>No Results to Display</h3>
+            )}
           </Col>
         </Row>
-        <Row>
-          <Col size="md-10 md-offset-1">
-            <article>
-              <h1>Synopsis</h1>
-              <p>
-                {book.synopsis}
-              </p>
-            </article>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-2">
-            <Link to="/">← Back to Authors</Link>
-          </Col>
-        </Row>
+        <Footer />
       </Container>
+      
     );
   }
 
 
-export default Detail;
+export default Projects;

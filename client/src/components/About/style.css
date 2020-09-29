@@ -5,28 +5,12 @@ img:hover {
 }
 .aboutmeMain {
     background-image: url(../../Images/coding.jpg);
-    height: 800px;
+    height: 1000px;
+    color: rgb(220, 219, 248);
 }
 p {
-  height: 400px;
+  height: 700px;
 }
-.main {
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-
-
-    backface-visibility: hidden;
-    background-size: 110%;
-    background-repeat: repeat;
-    background-attachment: fixed;
-
-    color: rgb(220, 219, 248);
-    margin-top: 20px;
-  }
-  .aboutme {
-    margin-top: 20px;
-    padding: 70px;
-  }
   h1 {
     font-family: 'Patrick Hand', cursive;
   }
