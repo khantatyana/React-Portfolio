@@ -1,6 +1,8 @@
 import React from "react";
 import emailjs from 'emailjs-com';
-import apiKeys from '../../js/apikeys'
+// import apiKeys from '../../js/apikeys'
+require("dotenv").config();
+// require("dotenv").config(process.env.REACT_APP_PRODUCTION);
 
 export function ContactUs() {
 
@@ -8,7 +10,8 @@ export function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm('my_amazing_template', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+      .sendForm('my_amazing_template', process.env.REACT_APP_PRODUCTION.TEMPLATE_ID, e.target, process.env.REACT_APP_PRODUCTION.USER_ID)
+      // .sendForm('my_amazing_template', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
       .then((result) => {
           console.log(result.text);
           alert("Your message was sent");
