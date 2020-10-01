@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import laptop from "../../Images/laptopred.jpg";
+// import laptop from "../../Images/laptopred.jpg";
 const imgStyle = {
     // "&:hover": {
     //     webkitTransform: "scaleX(-1)",
@@ -18,7 +18,8 @@ function About() {
             <img 
             style={imgStyle}
             alt="171x180"
-            src={laptop}
+            // src={laptop}
+            src="/laptopred.jpg"
             />
             <article><h5>"Everything you can imagine is real."<br />- Pablo Picasso</h5>
             </article>
