@@ -1,8 +1,10 @@
 # React-MongoDB-Portfolio
 
+[![Build Status](https://img.shields.io/badge/Project%20title-React--MongoDB--Portfolio-blue)](https://img.shields.io/badge/Project%20title-React--MongoDB--Portfolio-blue)
+
 My portfolio was built fully with frontend and backend sides using React and MongoDB with axios, emailjs-com, express, if-env, mongoose dependencies.
 
-![Image Alt Text](./client/public/portf.png)
+[Heroku Page](https://react-mongodb-portfolio.herokuapp.com/)
 
 ## Description
 
@@ -19,6 +21,8 @@ My portfolio was built fully with frontend and backend sides using React and Mon
 * A `Footer` component that appears on multiple pages
 
 * Deployed in Heroku
+
+![Image Alt Text](./client/public/portf.png)
 
 ### Site contents:
 

@@ -1,5 +1,4 @@
-import React, { useState, useEffect, Categorie } from "react";
-import ReactDOM from "react-dom";
+import React, { useState, useEffect } from "react";
 import API from "../../utils/API";
 import { Container } from "../Grid";
 import "./style.css";
@@ -8,17 +7,9 @@ import "./style.css";
 function Projects() {
 
     const [projects, setProjects] = useState([{}]);
-    // const [isShown, setIsShown] = useState(false);
 
-    // constructor(() => {
-    //     super();
-    //     this.state({categorie: "oldClass"});
-    // })
-    
-    // addClassName(() => {
-    //     this.setState({categorie: "newClass"});
-    //     console.log(this.state.categorie);
-    // })
+    const [hovered, setHovered] = useState(false);
+    const toggleHover = () => setHovered(!hovered);
 
     useEffect(() => {
         loadProjects()
@@ -41,13 +32,10 @@ function Projects() {
 
                         <div 
                         key={project._id} 
-                        className="portfolio-item-wrapper 
-                        // {this.state.catigorie} onMouseEnter={this.addClassName.bind(this)}
-                        "
-                        // onMouseEnter={() => setIsShown(true)}
-                        // onMouseLeave={() => setIsShown(false)}
-                        > 
-                        {/* {isShown && (className="img-darken")} */}
+                        // className="portfolio-item-wrapper"> 
+                        className={hovered ? "img-darken portfolio-item-wrapper" : "portfolio-item-wrapper"}
+                        onMouseEnter={toggleHover}
+                        onMouseLeave={toggleHover}>
                             <div className="portfolio-img-background" style={{ backgroundImage: `url(${project.portfolioImgBackground})` }}>
                                 <div className="img-text-wrapper">
                                     <div className="logo-wrapper">
