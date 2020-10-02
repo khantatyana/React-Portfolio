@@ -1,20 +1,15 @@
-import React from "react";
+import React, { Component} from "react";
 import emailjs from 'emailjs-com';
-// import apiKeys from '../../js/apikeys'
-//require('dotenv').config();
-// const dotenv = require('dotenv');
-// import dotenv from 'dotenv';
-// dotenv.config({ debug: process.env.DEBUG });
+require('dotenv').config();
 
 export function ContactUs() {
-  // const env = dotenv.config().parsed;
+  console.log(process.env);
 
   function sendEmail(e) {
     e.preventDefault();
     
     emailjs
-      // .sendForm("my_amazing_template", apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
-      .sendForm("my_amazing_template", TEMPLATE_ID, e.target, USER_ID)
+      .sendForm("my_amazing_template", process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
       .then((result) => {
           console.log(result.text);
           alert("Your message was sent");
