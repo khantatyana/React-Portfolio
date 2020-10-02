@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const db = require("../models");
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/projectslist"
+  process.env.MONGODB_URI || "mongodb://localhost/projectslist"
+  // "mongodb+srv://tatyanakhan:"+ encodeURIComponent("Qwerty.123$") + "@cluster0.pxtjs.mongodb.net/projectslist?retryWrites=true&w=majority"
 );
 
 const projectSeed = [

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0px;
+}
+h1 {
+font-family: 'Patrick Hand', cursive;
+}
+h5 {
+font-family: 'Patrick Hand', cursive;
+}
+/* about me */
+.row {
+height: 100px;
+width: 100%
+}
+.projects {
+background-image: url(/monochrome.png);
+background-size: 15%;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+#divContainer {
+margin-left: auto;
+margin-right: 0;
+}
+/* #portfolio {
+background-image: url(../../Images/24-249458_background-dots-monochrome.png);
+background-size: 15%;
+background-repeat: repeat;
+background-attachment: fixed;
+} */
+.container {
+display: grid;
+grid-template-columns: 1fr;
+}
+header {
+margin-top: 0;
+padding: 0;
+}
+#container {
+  min-height: 100%;
+}
+.container-fluid {
+padding-top: 100px;
+margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+  .wrapper {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: purple;
+  }
+  .wrapper {
+    width: 600px;
+  }
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper {
+position: relative;
+width: 100%;
+margin: 0;
+
+}
+.portfolio-img-background {
+height: 350px;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.img-text-wrapper {
+position: absolute;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+}
+.logo-wrapper img {
+width: 50%;
+margin-bottom: 20px;
+
+}
+.img-text-wrapper .subtitle {
+transition: 0.5s;
+font-weight: 600;
+color: transparent;
+font-size: 30px;
+}
+.img-text-wrapper:hover .subtitle {
+font-weight: 600;
+color: rgb(88, 66, 211);
+font-size: 30x;
+}
+.img-darken {
+transition: 0.5s;
+filter: brightness(10%);
+}
