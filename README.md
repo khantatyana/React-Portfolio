@@ -1,8 +1,8 @@
-# React-MongoDB-Portfolio
+# React-Portfolio
 
-[![Build Status](https://img.shields.io/badge/Project%20title-React--MongoDB--Portfolio-blue)](https://img.shields.io/badge/Project%20title-React--MongoDB--Portfolio-blue)
+[![Build Status](https://img.shields.io/badge/Project%20title-React--Portfolio-blue)](https://img.shields.io/badge/Project%20title-React--Portfolio-blue)
 
-My portfolio was built fully with frontend and backend sides using React and MongoDB with axios, emailjs-com, express, if-env, mongoose dependencies.
+My portfolio was built fully with frontend and backend sides using React and emailjs-com, express, if-env dependencies.
 
 [Heroku Page](https://react-mongodb-portfolio.herokuapp.com/)
 
