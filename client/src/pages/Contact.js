@@ -11,13 +11,13 @@ function Contactme() {
     <div className="contactme">
       <Container fluid >
         <Row >
-          <Col size="md-7">
+          <Col size="md-6">
             <Row>
-                <h3>Contact</h3>
+                <h3>Get in touch!</h3>
             </Row>
             <ContactUs/>
           </Col>
-          <Col size="md-5">
+          <Col size="md-6">
             <Contact />
           </Col>
         </Row>

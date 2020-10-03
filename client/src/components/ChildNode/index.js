@@ -10,7 +10,9 @@ function ChildNode({ project }) {
       className={hovered ? "img-darken portfolio-item-wrapper" : "portfolio-item-wrapper"}
       onMouseEnter={toggleHover}
       onMouseLeave={toggleHover}>
-
+        <div className="subtitle"><h3>
+          {project.title}</h3>
+        </div>
       <div className="portfolio-img-background" 
       style={{ backgroundImage: `url(${project.portfolioImgBackground})` }}></div>
 
@@ -23,9 +25,7 @@ function ChildNode({ project }) {
             <i className="subtitle fab fa-connectdevelop fa-spin-hover">Deployed</i>
           </a>
         </div>
-        <div className="subtitle">
-          {project.title}
-        </div>
+
         <a href={project.gitHub} target="_blank">
           <i className="subtitle fab fa-github fa-lg fa-spin-hover">Github</i>
         </a>

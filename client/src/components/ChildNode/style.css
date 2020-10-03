@@ -1,7 +1,7 @@
 h1 {
 font-family: 'Patrick Hand', cursive;
 }
-h5 {
+h3 .subtitle{
 font-family: 'Patrick Hand', cursive;
 }
 .row {
@@ -88,8 +88,8 @@ font-size: 30px;
 font-weight: 600;
 color: rgb(88, 66, 211);
 font-size: x;
-/* font-size: large; */
-padding-bottom: 10px;
+/* font-size: 30px; */
+padding-bottom: 20px;
 }
 .img-darken {
 transition: 0.5s;

@@ -8,7 +8,7 @@ function NavTabs() {
 
   return (
     <Navbar sticky="top">
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse">
         <Link
           to="/about"
           className={location.pathname === "/about" ? "navbar-brand active" : "navbar-brand"}

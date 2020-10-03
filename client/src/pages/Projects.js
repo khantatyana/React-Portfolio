@@ -10,9 +10,9 @@ function Projects() {
     <div className="projects">
       <Container fluid >
 
-          <Col size="md-12">
+          {/* <Col size="md-12"> */}
             <Project />
-          </Col>
+          {/* </Col> */}
 
       </Container>
       <Footer />
