@@ -1,48 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    height: 100%;
-    margin: 0px;
-}
 h1 {
   font-family: 'Patrick Hand', cursive;
 }
 h5 {
   font-family: 'Patrick Hand', cursive;
 }
-/* about me */
-.row {
-  height: 100px;
-  width: 100%
-}
 .projects {
   background-image: url(/monochrome.png);
   background-size: 15%;
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow: auto;
+  padding-bottom: 600px;
+  padding-top: 0px;
+  margin-top: 0;
+  min-height: 100%;
 }
-#divContainer {
-  margin-left: auto;
-  margin-right: 0;
-}
-/* #portfolio {
-  background-image: url(../../Images/24-249458_background-dots-monochrome.png);
-  background-size: 15%;
-  background-repeat: repeat;
-  background-attachment: fixed;
-} */
 .container {
   display: grid;
   grid-template-columns: 1fr;
-}
-header {
-  margin-top: 0;
-  padding: 0;
-}
-#container {
-    min-height: 100%;
 }
 .container-fluid {
   padding-top: 100px;
@@ -70,6 +45,8 @@ header {
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  overflow: auto;
+  padding-bottom: 300px;
 }
 .portfolio-item-wrapper {
   position: relative;
@@ -78,7 +55,7 @@ header {
 
 }
 .portfolio-img-background {
-  height: 350px;
+  height: 400px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -98,7 +75,7 @@ header {
 }
 .logo-wrapper img {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
  
 }
 /* Need to be more specific with selector */

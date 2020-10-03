@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import "./style.css";
+import Card from "../Card";
 
-// function ChildNode({ project }) {
 function ChildNode({ project }) {
   const [hovered, setHovered] = useState(false);
   const toggleHover = () => setHovered(!hovered);
   return (
-
-
     <div 
       className={hovered ? "img-darken portfolio-item-wrapper" : "portfolio-item-wrapper"}
       onMouseEnter={toggleHover}
@@ -32,6 +30,9 @@ function ChildNode({ project }) {
           <i className="subtitle fab fa-github fa-lg fa-spin-hover">Github</i>
         </a>
       </div>
+      <br/>
+      <Card
+      project={project}/>
     </div>
 
 

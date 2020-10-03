@@ -102,5 +102,21 @@
     "deployed": "https://github.com/khantatyana/OOP-Template-Engine-Employee-Summary",
     "logoWrapper": "/oop-team.png",
     "gitHub": "https://github.com/khantatyana/OOP-Template-Engine-Employee-Summary"
+},
+{
+    "title": "Coming soon",
+    "portfolioImgBackground": "/chupa.jpg",
+    "synopsis": "Coming soon",
+    "deployed": "/",
+    "logoWrapper": "/chupa.jpg",
+    "gitHub": "/"
+},
+{
+    "title": "Coming soon",
+    "portfolioImgBackground": "/comingsoon.jpg",
+    "synopsis": "Coming soon",
+    "deployed": "/",
+    "logoWrapper": "/comingsoon.jpg",
+    "gitHub": "/"
 }
 ]

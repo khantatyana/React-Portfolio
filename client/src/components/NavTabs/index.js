@@ -4,15 +4,10 @@ import "./style.css";
 import { Navbar } from "react-bootstrap";
 
 function NavTabs() {
-  // We'll go into the Hooks API later, for now, we are just using some code
-  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
-  // This allows the component to check the route any time the user uses a link to navigate.
   const location = useLocation();
 
   return (
     <Navbar sticky="top">
-
-
         <div className="collapse navbar-collapse" id="navbarNav">
         <Link
           to="/about"

@@ -9,12 +9,10 @@ function Projects() {
   return (
     <div className="projects">
       <Container fluid >
-        <Row >
 
           <Col size="md-12">
             <Project />
           </Col>
-        </Row>
 
       </Container>
       <Footer />
