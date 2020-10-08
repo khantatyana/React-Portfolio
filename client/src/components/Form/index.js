@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import emailjs from 'emailjs-com';
+import Axios from "axios";
 require('dotenv').config();
 
 export function ContactUs() {
@@ -7,17 +8,26 @@ export function ContactUs() {
 
   function sendEmail(e) {
     e.preventDefault();
+    console.log(e.target.user_email.value);
+    Axios.post("http://localhost:3001/sendEmail", {
+      user_name: e.target.user_name.value,
+      user_email: e.target.user_email.value,
+      message: e.target.message.value
+    })
+    // .then(() => {
+    //   e.target.reset();
+    // })
     
-    emailjs
-      .sendForm("my_amazing_template", process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
-      .then((result) => {
-          console.log(result.text);
-          alert("Your message was sent");
-      }, (error) => {
-          console.log(error.text);
-          console.log(process.env);
-      });
-      e.target.reset();
+    // emailjs
+    //   .sendForm("my_amazing_template", process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+    //   .then((result) => {
+    //       console.log(result.text);
+    //       alert("Your message was sent");
+    //   }, (error) => {
+    //       console.log(error.text);
+    //       console.log(process.env);
+    //   });
+    // e.target.reset();
   }
 
   return (

@@ -8,6 +8,14 @@
     "gitHub": "https://github.com/khantatyana/Project-1"
 },
 {
+    "title": "MERN-Google-Books-Search",
+    "portfolioImgBackground": "/googlebooks.png",
+    "synopsis": "A new React-based Google Books Search app. Node, Express and MongoDB are used for users be able to save books to review or purchase later.",
+    "deployed": "https://mern-googlebooks-search.herokuapp.com/",
+    "logoWrapper": "/googlebooks.png",
+    "gitHub": "https://github.com/khantatyana/MERN-Google-Books-Search"
+},
+{
 "title": "Nosql-Workout-Tracker",
 "portfolioImgBackground": "/fit.png",
 "synopsis": "This app Workout Tracker is built with Express and connected with Mongo database with a Mongoose schema.",
@@ -109,14 +117,6 @@
     "synopsis": "Coming soon",
     "deployed": "/",
     "logoWrapper": "/chupa.jpg",
-    "gitHub": "/"
-},
-{
-    "title": "Coming soon",
-    "portfolioImgBackground": "/comingsoon.jpg",
-    "synopsis": "Coming soon",
-    "deployed": "/",
-    "logoWrapper": "/comingsoon.jpg",
     "gitHub": "/"
 }
 ]
