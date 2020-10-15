@@ -6,7 +6,7 @@ img:hover {
 .aboutmeMain {
     background-image: url(/coding.jpg);
     height: 1000px;
-    color: rgb(220, 219, 248);
+    color: white;
 }
 p {
   height: 700px;

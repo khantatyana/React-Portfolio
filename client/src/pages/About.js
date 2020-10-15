@@ -8,16 +8,14 @@ function Aboutme() {
 
   return (
     <div className="aboutmeMain">
-      <Container >
         <Row >
-          <Col size="md-8">
+          <Col size="md-9">
           </Col>
-          <Col size="md-4 sm-12">
+          <Col size="md-3 sm-12">
             <About />
           </Col>
         </Row>
         <Footer />
-      </Container>
     </div>
   );
 }

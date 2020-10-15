@@ -8,13 +8,13 @@ function Projects() {
   
   return (
     <div className="projects">
-      <Container fluid >
+      {/* <Container fluid className="projects" > */}
 
           {/* <Col size="md-12"> */}
             <Project />
           {/* </Col> */}
 
-      </Container>
+      {/* </Container> */}
       <Footer />
     </div>
   );
