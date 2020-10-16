@@ -1,8 +1,8 @@
 [
 {
-    "title": "Explore Outdoors App - Project-1",
+    "title": "Explore Outdoors - Project-1",
     "portfolioImgBackground": "/outdoor.png",
-    "synopsis": "This application was built with third-party APIs: National Parks, Map Box API and Open Weather API powered by JavaScript code.",
+    "synopsis": "A Day trip planner that linked to the 400+ National Parks (based on NPS API) with a user-friendly interface. This application was built with third-party APIs: National Parks, Map Box API and Open Weather API.",
     "deployed": "https://khantatyana.github.io/Project-1/",
     "logoWrapper": "/outdoor.png",
     "gitHub": "https://github.com/khantatyana/Project-1"
@@ -26,10 +26,18 @@
 {
 "title": "Cinder - Project-2",
 "portfolioImgBackground": "/cinder.png",
-"synopsis": "Social networking platform with using Google API, Express, Socket.io, MySql, Passport, Hanlebars, Bulma, Sequelize.",
+"synopsis": "Social networking platform using Express, Socket.io, MySql, Passport, Handlebars, Bulma, Sequelize, Google API.",
 "deployed": "https://project2-cinder.herokuapp.com/",
 "logoWrapper": "/logo4-charcoal.png",
 "gitHub": "https://github.com/BubblyRobot/project2-cinder"
+},
+{
+    "title": "Jazz Events",
+    "portfolioImgBackground": "/jazz.png",
+    "synopsis": "MERN - MongoDB, ExpressJS, NodeJS, ReactJS, React Bootstrap, Passport. This project is meant to serve as a site for jazz fans to find the non-mainstream jazz events. Users are able to filter events by date and by artist, they are also able to create their own accounts and bookmark these events.",
+    "deployed": "https://lit-crag-08060.herokuapp.com/",
+    "logoWrapper": "/jazz.png",
+    "gitHub": "https://github.com/tabouzeid/jazz_events"
 },
 {
 "title": "Work Day Scheduler",
@@ -110,13 +118,6 @@
     "deployed": "https://github.com/khantatyana/OOP-Template-Engine-Employee-Summary",
     "logoWrapper": "/oop-team.png",
     "gitHub": "https://github.com/khantatyana/OOP-Template-Engine-Employee-Summary"
-},
-{
-    "title": "Coming soon",
-    "portfolioImgBackground": "/chupa.jpg",
-    "synopsis": "Coming soon",
-    "deployed": "/",
-    "logoWrapper": "/chupa.jpg",
-    "gitHub": "/"
 }
+
 ]
