@@ -34,7 +34,7 @@
 {
     "title": "Jazz Events",
     "portfolioImgBackground": "/jazz.png",
-    "synopsis": "MERN - MongoDB, ExpressJS, NodeJS, ReactJS, React Bootstrap, Passport. This project is meant to serve as a site for jazz fans to find the non-mainstream jazz events. Users are able to filter events by date and by artist, they are also able to create their own accounts and bookmark these events.",
+    "synopsis": "MERN - MongoDB, ExpressJS, NodeJS, ReactJS, React-Bootstrap, Passport. This project is meant to serve as a site for jazz fans to find the non-mainstream jazz events. Users are able to filter events by date and by artist, they are also able to create their own accounts and bookmark these events.",
     "deployed": "https://lit-crag-08060.herokuapp.com/",
     "logoWrapper": "/jazz.png",
     "gitHub": "https://github.com/tabouzeid/jazz_events"
@@ -50,7 +50,7 @@
 {
 "title": "React-Employee-Directory",
 "portfolioImgBackground": "/empDir1.png",
-"synopsis": "React application which UI is broken into components, it manages component state, and responds to user events.",
+"synopsis": "React application which UI is broken into components, it manages component state, and responds to user events. Used Random user API",
 "deployed": "https://react-employee-directory-new.herokuapp.com/",
 "logoWrapper": "/empDir1.png",
 "gitHub": "https://github.com/khantatyana/React-Employee-Directory"
@@ -106,7 +106,7 @@
 {
     "title": "Good-README-Generator",                
     "portfolioImgBackground": "/good-README-Generator.gif",
-    "synopsis": "a command-line application that dynamically generates a README.md from a user's input powered with Using Node.js using ES6+.",
+    "synopsis": "A command-line application that dynamically generates a README.md from a user's input powered with Using Node.js using ES6+.",
     "deployed": "https://github.com/khantatyana/Good-README-Generator",
     "logoWrapper": "/good-README-Generator.gif",
     "gitHub": "https://github.com/khantatyana/Good-README-Generator"
