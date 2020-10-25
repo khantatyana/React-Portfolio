@@ -26,7 +26,7 @@
 {
 "title": "Cinder - Project-2",
 "portfolioImgBackground": "/cinder.png",
-"synopsis": "Social networking platform using Express, Socket.io, MySql, Passport, Handlebars, Bulma, Sequelize, Google API.",
+"synopsis": "Social Networking site for Coding students and Grads Find fellow coders to chat, friend, and work on projects. Express, Socket.io, MySql, Passport, Handlebars, Bulma, Sequelize, Google API.",
 "deployed": "https://project2-cinder.herokuapp.com/",
 "logoWrapper": "/logo4-charcoal.png",
 "gitHub": "https://github.com/BubblyRobot/project2-cinder"
