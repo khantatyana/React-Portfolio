@@ -1,11 +1,11 @@
 [
 {
-    "title": "Explore Outdoors - Project-1",
+    "title": "Explore Outdoors",
     "portfolioImgBackground": "/outdoor.png",
     "synopsis": "A Day trip planner that linked to the 400+ National Parks (based on NPS API) with a user-friendly interface. This application was built with third-party APIs: National Parks, Map Box API and Open Weather API.",
-    "deployed": "https://khantatyana.github.io/Project-1/",
+    "deployed": "https://khantatyana.github.io/Day-trip-planner/",
     "logoWrapper": "/outdoor.png",
-    "gitHub": "https://github.com/khantatyana/Project-1"
+    "gitHub": "https://github.com/khantatyana/Day-trip-planner"
 },
 {
     "title": "MERN-Google-Books-Search",
@@ -24,7 +24,7 @@
 "gitHub": "https://github.com/khantatyana/Nosql-Workout-Tracker"
 },
 {
-"title": "Cinder - Project-2",
+"title": "Cinder",
 "portfolioImgBackground": "/cinder.png",
 "synopsis": "Social Networking site for Coding students and Grads Find fellow coders to chat, friend, and work on projects. Express, Socket.io, MySql, Passport, Handlebars, Bulma, Sequelize, Google API.",
 "deployed": "https://project2-cinder.herokuapp.com/",
