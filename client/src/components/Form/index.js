@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import emailjs from 'emailjs-com';
 import Axios from "axios";
-require('dotenv').config();
+// require('dotenv').config();
 
 export function ContactUs() {
   console.log(process.env);
