@@ -34,7 +34,7 @@
 {
     "title": "Jazz Events",
     "portfolioImgBackground": "/jazz.png",
-    "synopsis": "MERN - MongoDB, ExpressJS, NodeJS, ReactJS, React-Bootstrap, Passport. This project is meant to serve as a site for jazz fans to find the non-mainstream jazz events. Users are able to filter events by date and by artist, they are also able to create their own accounts and bookmark these events.",
+    "synopsis": "MERN - MongoDB, ExpressJS, NodeJS, ReactJS, React-Bootstrap, Passport, Multer, Google Maps API. This project is meant to serve as a site for jazz fans to find the non-mainstream jazz events. Users are able to filter events by date and by artist, they are also able to create their own accounts and bookmark these events.",
     "deployed": "https://bones-08060.herokuapp.com/",
     "logoWrapper": "/jazz.png",
     "gitHub": "https://github.com/tabouzeid/jazz_events"

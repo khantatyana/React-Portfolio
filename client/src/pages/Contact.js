@@ -8,7 +8,7 @@ import { ContactUs } from "../components/Form";
 function Contactme() {
 
   return (
-    <div className="contactme">
+    <div className="contactme" style={{paddingLeft: "350px", top: "0"}}>
       <Container fluid >
         <Row >
           <Col size="md-6">

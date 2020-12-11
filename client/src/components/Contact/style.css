@@ -10,8 +10,8 @@ h1 h3 {
     height: 700px;
 }
 .main {
-    min-height: 200%;
-    padding-top: 100px;
+    min-height: 100%;
+    padding-top: 20px;
     margin-left: 200px;
 }
 .social-icons {
