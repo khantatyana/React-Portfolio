@@ -13,7 +13,7 @@ function Contact() {
                         </a>
                     </div>
                     <div className='col-md-6 col-xs'>
-                        <a className="social-link" href="https://linkedin.com/in/khan-tatyana-b312434a" target="_blank">
+                        <a className="social-link" href="https://www.linkedin.com/in/khan-tatyana/" target="_blank">
                             <i className="fab fa-linkedin-in fa-4x fa-spin-hover"></i>
                         </a>
                     </div>
