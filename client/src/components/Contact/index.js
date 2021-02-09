@@ -28,7 +28,7 @@ function Contact() {
                         </a>
                     </div>
                     <div className="col-md-6 col-xs">
-                        <a className="social-link" href="https://drive.google.com/file/d/1jqTmwvdHf_96sqm5FXDwVxGtRetVZOAH/view?usp=sharing" target="_blank">
+                        <a className="social-link" href="https://drive.google.com/file/d/1zTJWgWdiiWX9HWGWxgb5I_BV_8g8CjeQ/view?usp=sharing" target="_blank">
                             <i className="far fa-file-word fa-4x fa-spin-hover"></i>Resume
                         </a>
                     </div>
